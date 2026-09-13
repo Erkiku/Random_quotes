@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  font-size: 20px;
+}
+
+.quoteContainer {
+  width: min(90vw, 800px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#btn {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: mediumvioletred;
+  font-style: italic;
+}
